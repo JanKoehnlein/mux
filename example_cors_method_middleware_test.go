@@ -9,7 +9,7 @@ import (
 )
 
 func ExampleCORSMethodMiddleware() {
-	r := mux.NewRouter()
+	r := mux.NewRout er()
 
 	r.HandleFunc("/foo", func(w http.ResponseWriter, r *http.Request) {
 		// Handle the request
